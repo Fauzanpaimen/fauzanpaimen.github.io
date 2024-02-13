@@ -2067,7 +2067,7 @@ input, select, textarea {
 	#header {
 		position: relative;
 		background: #ffffff;
-		padding: 0 0 0 0;
+		padding: 1em 0 4em 0;
 		text-align: center;
 		margin-bottom: 0;
 	}
