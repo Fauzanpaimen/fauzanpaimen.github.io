@@ -1582,6 +1582,16 @@ input, select, textarea {
 			margin: -4.5em 0 4.25em -3.5em;
 		}
 
+		.box.post .image.featured2 {
+			display: block;
+			width: 100%; /* Adjust width as needed */
+			max-width: 100%;
+			margin: 1em 0; /* Space around the image */
+			overflow: hidden;
+			border-radius: 5px; /* Optional: rounding corners */
+			/* Add any other styling specific to featured2 */
+		}
+
 		.box.post header {
 			padding-top: 1em;
 			margin: 0 0 2em 0;
@@ -2067,7 +2077,7 @@ input, select, textarea {
 	#header {
 		position: relative;
 		background: #ffffff;
-		padding: 1em 0 4em 0;
+		padding: 0;
 		text-align: center;
 		margin-bottom: 0;
 	}
@@ -2077,12 +2087,12 @@ input, select, textarea {
 	#banner {
 		background: #ffffff url("../../images/03.jpg");
 		background-position: center center;
-		background-size: auto 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
 		padding: 6em 0;
-		margin: 3em 0 0 0;
+		margin: 0 0 0 0;
 	}
 
 		#banner header {
